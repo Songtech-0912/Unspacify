@@ -33,7 +33,7 @@ int main(int argc, char ** argv) {
     /* print usage */
     cout << "Usage: " << endl << "\t" << argv[0] << " \"your-string\"" << endl;
 
-    cout << "Arguments: " << endl << "\t" << argv[0] << "-m \"your-string\": Only print result, with no formatting" << endl;
+    cout << "Arguments: " << endl << "\t" << argv[0] << " -m \"your-string\": Only print result, with no formatting" << endl;
   }
   return 0;
 }
